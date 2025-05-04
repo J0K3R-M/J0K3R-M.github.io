@@ -1,0 +1,376 @@
+/* General body styles */
+body {
+    padding-top: 50px; /* Adds space at the top of the page */
+    padding-bottom: 00px; /* No padding at the bottom */
+    background-color: #f6f6f6; /* Light gray background color */
+}
+
+/* Fullscreen background styles */
+.full {
+    background-repeat: no-repeat; /* Prevents background from repeating */
+    background-position: center center; /* Centers the background */
+    background-attachment: fixed; /* Fixes the background during scrolling */
+    background-size: cover; /* Ensures the background covers the entire area */
+    background-color: rgb(28, 28, 28); /* Dark gray fallback color */
+}
+
+/* Navbar styles */
+.navbar {
+    z-index: 9999; /* Ensures the navbar is above other elements */
+    background-color: black; /* Black background color */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7); /* Adds shadow for depth */
+}
+
+/* Circular button styles */
+.btn-circle {
+    width: 50px; /* Button width */
+    height: 50px; /* Button height */
+    text-align: center; /* Centers text inside the button */
+    padding: 0; /* Removes padding */
+    font-size: 24px; /* Font size for the button text */
+    line-height: 48px; /* Aligns text vertically */
+    border-radius: 50%; /* Makes the button circular */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* Adds shadow for depth */
+}
+
+/* Button link positioning */
+.btn-lnk {
+    position: absolute; /* Positions the button absolutely */
+    bottom: 15px; /* Places the button 15px from the bottom */
+}
+
+.btn-lnk0 {
+    left: 30px; /* Positions the button 30px from the left */
+}
+
+.btn-lnk1 {
+    right: 30px; /* Positions the button 30px from the right */
+}
+
+/* Hero section styles */
+#twoam {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-image: url("images/pexels-simon-steiner-1108932161-28890877.jpg"); /* Background image */
+    background-position: center center; /* Centers the background */
+    background-repeat: no-repeat; /* Prevents background from repeating */
+    background-attachment: fixed; /* Fixes the background during scrolling */
+    background-size: cover; /* Ensures the background covers the entire area */
+    background-color: rgb(28, 28, 28); /* Dark gray fallback color */
+    color: white; /* White text color */
+}
+
+/* Navbar hover effect */
+#nav-bar ul li:hover::after {
+    width: 100%; /* Expands the underline on hover */
+}
+
+#nav-bar ul li::after {
+    content: ''; /* Adds an underline effect */
+    position: absolute; /* Positions the underline */
+    left: 0; /* Aligns the underline to the left */
+    bottom: 0; /* Positions the underline at the bottom */
+    height: 3px; /* Underline height */
+    background: #607D8B; /* Underline color */
+    width: 0; /* Initial underline width */
+    transition: width 0.2s; /* Smooth transition for the underline */
+}
+
+/* Maximum width container */
+.max {
+    max-width: 1300px; /* Maximum width of the container */
+    margin: auto; /* Centers the container */
+    padding-bottom: 15px; /* Adds padding at the bottom */
+}
+
+/* Description text styles */
+.desc {
+    font-family: 'Roboto', sans-serif; /* Font family */
+    font-size: 1.3em; /* Font size */
+    line-height: 1.7em; /* Line height */
+    letter-spacing: 0.03em; /* Letter spacing */
+    margin-left: 10px; /* Left margin */
+    margin-right: 10px; /* Right margin */
+}
+
+/* About section styles */
+#about {
+    width: 100vw; /* Full viewport width */
+    background-color: rgb(255, 255, 255); /* White background color */
+    padding-top: 20px; /* Padding at the top */
+    padding-bottom: 50px; /* Padding at the bottom */
+}
+
+#about .desc {
+    font-weight: 400; /* Normal font weight */
+    color: rgba(0, 0, 0, 0.87); /* Dark gray text color */
+}
+
+/* Icon styles for the "About" section */
+.icon-me {
+    text-align: center; /* Centers the icon */
+    font-size: 5em; /* Icon size */
+    color: rgba(200, 100, 100, 0.7); /* Icon color */
+    padding-top: 20px; /* Padding at the top */
+    padding-bottom: 25px; /* Padding at the bottom */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30); /* Adds shadow for depth */
+}
+
+/* Icon styles for the "Contact" section */
+.icon-contact {
+    text-align: center; /* Centers the icon */
+    font-size: 7.5em; /* Icon size */
+    color: rgba(152, 110, 110, 0.4); /* Icon color */
+    padding-top: 10px; /* Padding at the top */
+    padding-bottom: 15px; /* Padding at the bottom */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75); /* Adds shadow for depth */
+}
+
+.icon-contact a {
+    color: rgba(152, 110, 110, 0.4) !important; /* Icon link color */
+}
+
+/* Portfolio section styles */
+#portfolio {
+    background-color: #f6f6f6; /* Light gray background color */
+    width: 100vw; /* Full viewport width */
+    max-width: 1000px; /* Maximum width */
+    padding-top: 20px; /* Padding at the top */
+    padding-bottom: 50px; /* Padding at the bottom */
+}
+
+#portfolio .desc {
+    font-weight: 400; /* Normal font weight */
+    color: rgba(0, 0, 0, 0.6); /* Medium gray text color */
+}
+
+/* Contact section styles */
+#contact {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-image: url("images/pexels-idan-canfi-779084-4752708.jpg"); /* Background image */
+    background-color: black; /* Black fallback color */
+    background-repeat: no-repeat; /* Prevents background from repeating */
+    background-position: center center; /* Centers the background */
+    background-attachment: fixed; /* Fixes the background during scrolling */
+    background-size: cover; /* Ensures the background covers the entire area */
+    padding-top: 20px; /* Padding at the top */
+}
+
+/* Tagline styles */
+.tagline1 {
+    font-family: 'lato', sans-serif; /* Font family */
+    font-size: 2em; /* Font size */
+    font-weight: 300; /* Light font weight */
+    font-style: italic; /* Italic text */
+    color: #bbb; /* Light gray text color */
+    text-align: left; /* Aligns text to the left */
+    padding-top: 70px; /* Padding at the top */
+    text-shadow: 1px 1px black; /* Adds shadow for depth */
+}
+
+.tagline2 {
+    font-family: 'lato', sans-serif; /* Font family */
+    font-size: 7em; /* Font size */
+    letter-spacing: 7px; /* Letter spacing */
+    line-height: 0.95em; /* Line height */
+    font-weight: 100; /* Thin font weight */
+    color: white; /* White text color */
+    text-align: left; /* Aligns text to the left */
+    text-shadow: 1px 1px black; /* Adds shadow for depth */
+    padding-top: 10px; /* Padding at the top */
+}
+
+/* Additional tagline styles */
+.tagline3a, .tagline3b, .tagline3c {
+    font-family: 'courier', sans-serif; /* Font family */
+    font-size: 1.75em; /* Font size */
+    font-style: italic; /* Italic text */
+    color: #666; /* Gray text color */
+    text-align: left; /* Aligns text to the left */
+    line-height: 1em; /* Line height */
+    text-shadow: 1px 1px black; /* Adds shadow for depth */
+}
+
+.tagline3a {
+    padding-top: 50px; /* Padding at the top */
+}
+
+.tagline3b {
+    padding-left: 30px; /* Padding on the left */
+}
+
+/* Decorative line styles */
+.line {
+    height: 3px; /* Line height */
+    width: 100px; /* Line width */
+    position: relative; /* Relative positioning */
+    top: -12px; /* Moves the line upwards */
+    display: inline-block; /* Inline-block display */
+    background-color: #999; /* Gray background color */
+}
+
+/* Section-specific line styles */
+.line.about {
+    background-color: rgba(0, 0, 0, 0.54); /* Dark gray color */
+}
+
+.line.portfolio {
+    background-color: rgba(0, 0, 0, 0.54); /* Dark gray color */
+}
+
+.line.contact {
+    background-color: rgba(255, 255, 255, 0.95); /* White color */
+}
+
+/* Section title styles */
+.section-title {
+    font-family: 'lato', sans-serif; /* Font family */
+    font-size: 3.5em; /* Font size */
+    font-weight: 900; /* Bold font weight */
+    font-style: italic; /* Italic text */
+    text-align: center; /* Centers the text */
+    padding-top: 0px; /* No padding at the top */
+    padding-left: 15px; /* Padding on the left */
+    padding-right: 15px; /* Padding on the right */
+}
+
+/* Section-specific title styles */
+.section-title.about {
+    color: rgba(0, 0, 0, 0.54); /* Dark gray color */
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.75); /* Adds shadow for depth */
+}
+
+.section-title.portfolio {
+    color: rgba(0, 0, 0, 0.54); /* Dark gray color */
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.75); /* Adds shadow for depth */
+}
+
+.section-title.contact {
+    color: rgba(255, 255, 255, 0.9); /* White color */
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.99); /* Adds shadow for depth */
+}
+
+/* Section banner styles */
+.section-banner {
+    padding-top: 10px; /* Padding at the top */
+    padding-bottom: 50px; /* Padding at the bottom */
+}
+
+/* Project title styles */
+.project-title {
+    font-family: 'Lato', sans-serif; /* Font family */
+    font-size: 1.75em; /* Font size */
+    font-weight: 500; /* Medium font weight */
+    padding-top: 4px; /* Padding at the top */
+    padding-bottom: 1px; /* Padding at the bottom */
+    color: #666; /* Gray text color */
+    text-align: center; /* Centers the text */
+}
+
+/* Project body styles */
+.project-body {
+    font-family: 'Roboto', sans-serif; /* Font family */
+    font-size: 1em; /* Font size */
+    margin-left: 10px; /* Left margin */
+    margin-right: 10px; /* Right margin */
+    margin-top: 1px; /* Top margin */
+    line-height: 1.5em; /* Line height */
+    letter-spacing: 0.03em; /* Letter spacing */
+}
+
+/* Footer styles */
+#social-footer {
+    width: 100%; /* Full width */
+    text-align: center; /* Centers the text */
+    color: white; /* White text color */
+    background-color: black; /* Black background color */
+}
+
+#social-footer ul {
+    margin: 0; /* Removes margin */
+    padding: 0; /* Removes padding */
+    list-style-type: none; /* Removes list bullets */
+}
+
+#social-footer ul li {
+    display: inline; /* Displays list items inline */
+    padding: 0.4em; /* Padding around list items */
+}
+
+#social-footer a {
+    color: white !important; /* White link color */
+}
+
+/* Copyright text styles */
+.copyright {
+    padding-bottom: 0px; /* No padding at the bottom */
+    padding-top: 5px; /* Padding at the top */
+    color: #555; /* Gray text color */
+}
+
+/* Down arrow styles */
+#down {
+    position: absolute; /* Absolute positioning */
+    opacity: 0.20; /* Low opacity */
+    left: 50%; /* Centers horizontally */
+    bottom: 10%; /* Positions 10% from the bottom */
+    cursor: pointer; /* Changes cursor to pointer */
+}
+
+/* Highlight styles */
+.highlight {
+    opacity: 0.6; /* Low opacity */
+}
+
+.highlight:hover {
+    opacity: 1; /* Full opacity on hover */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    #contact {
+        background-attachment: scroll; /* Changes background behavior */
+    }
+
+    #twoam {
+        background-attachment: scroll; /* Changes background behavior */
+    }
+
+    .tagline1 {
+        font-size: 1.2em; /* Smaller font size */
+    }
+
+    .tagline2 {
+        font-size: 2.8em; /* Smaller font size */
+    }
+
+    .tagline3a, .tagline3b, .tagline3c {
+        font-size: 1em; /* Smaller font size */
+    }
+
+    .section-title {
+        font-size: 2.6em; /* Smaller font size */
+    }
+
+    .line {
+        height: 2px; /* Smaller line height */
+        width: 70px; /* Smaller line width */
+        position: relative; /* Relative positioning */
+        top: -10px; /* Moves the line upwards */
+        display: inline-block; /* Inline-block display */
+        background-color: #666; /* Gray background color */
+    }
+
+    .icon-me {
+        font-size: 7.5empx; /* Smaller icon size */
+        padding-top: 10px; /* Padding at the top */
+        padding-bottom: 15px; /* Padding at the bottom */
+    }
+
+    .icon-contact {
+        font-size: 4.5em; /* Smaller icon size */
+        padding-top: 10px; /* Padding at the top */
+        padding-bottom: 10px; /* Padding at the bottom */
+    }
+}
