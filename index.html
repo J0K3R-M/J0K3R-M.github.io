@@ -1,52 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Root HTML element with language attribute -->
-
 <head>
-    <!-- Meta Information -->
-    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper rendering on mobile devices -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Compatibility mode for IE -->
-    <title>MINHAJ MUHAMMED - Personal Portfolio</title> <!-- Page title -->
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css"> <!-- Open Sans font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" type="text/css"> <!-- Roboto font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300italic,400,700,900" rel="stylesheet" type="text/css"> <!-- Lato font -->
-
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Font Awesome for icons -->
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <!-- Bootstrap for responsive design -->
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css"> <!-- Link to custom stylesheet -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MINHAJ MUHAMMED - Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300italic,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<body data-spy="scroll" data-target=".navbar" data-offset="50"> <!-- Enables scrollspy for navigation -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <!-- Navbar Section -->
-    <nav id="nav-bar" class="navbar navbar-inverse navbar-fixed-top"> <!-- Fixed navigation bar -->
+    <nav id="nav-bar" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <!-- Mobile Navigation Toggle Button -->
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span> <!-- Screen reader text -->
-                    <span class="icon-bar"></span> <!-- Hamburger menu bar -->
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
             </div>
-
-            <!-- Navigation Links -->
-            <div class="collapse navbar-collapse" id="navbar-collapse-1"> <!-- Collapsible navigation menu -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about">About</a></li> <!-- Link to About section -->
-                    <li><a href="#portfolio">Portfolio</a></li> <!-- Link to Portfolio section -->
-                    <li><a href="#skills">Skills</a></li> <!-- Link to Skills section -->
-                    <li><a href="#experience">Experience</a></li> <!-- Link to Experience section -->
-                    <li><a href="#contact">Contact</a></li> <!-- Link to Contact section -->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -55,27 +42,28 @@
     <!-- Header Section -->
     <header id="twoam">
         <div class="container-fluid">
-            <div class="row me animated fadeIn"> <!-- Row with fade-in animation -->
-                <div class="col-xs-offset-5 col-sm-offset-6 col-xs-7 col-sm-6">
-                    <!-- Taglines -->
-                    <div class="tagline1">the portfolio of</div> <!-- First tagline -->
-                    <div class="tagline2 animated fadeIn">MINHAJ</div> <!-- Second tagline with animation -->
-                    <div class="tagline2 animated fadeIn">MUHAMMED</div> <!-- Third tagline with animation -->
+            <div class="row me animated fadeIn">
+                <div class="col-xs-offset-3 col-sm-offset-4 col-xs-6 col-sm-4">
+                    <img src="images/{1006360A-B7F5-46FC-BE29-01F3E0265E99}.png" alt="Profile Picture" class="img-responsive profile-picture">
+                </div>
+                <div class="col-xs-7 col-sm-6">
+                    <div class="tagline1">the portfolio of</div>
+                    <div class="tagline2 animated fadeIn">MINHAJ</div>
+                    <div class="tagline2 animated fadeIn">MUHAMMED</div>
                     <div class="animated fadeIn">
-                        <div class="tagline3a">{</div> <!-- Opening curly brace -->
+                        <div class="tagline3a">{</div>
                         <div class="tagline3b">designer :
                             <br> coder :
                             <br> developer :
                             <br> programmer :
                             <br> learner :
                             <br>
-                        </div> <!-- List of roles -->
-                        <div class="tagline3c">}</div> <!-- Closing curly brace -->
+                        </div>
+                        <div class="tagline3c">}</div>
                     </div>
                 </div>
             </div>
-            <!-- Down Arrow Icon -->
-            <div id="down" class="animated infinite slideInDown"> <!-- Animated down arrow -->
+            <div id="down" class="animated infinite slideInDown">
                 <i class="fa fa-chevron-circle-down fa-5x" aria-hidden="true"></i>
             </div>
         </div>
@@ -85,35 +73,30 @@
     <section id="about" class="container-fluid">
         <div class="row section-banner">
             <div class="col-md-offset-3 col-md-6 text-center">
-                <!-- Section Title -->
                 <div>
-                    <span class="line about"></span> <!-- Decorative line -->
-                    <span class="section-title about">about</span> <!-- Section title -->
-                    <span class="line about"></span> <!-- Decorative line -->
+                    <span class="line about"></span>
+                    <span class="section-title about">about</span>
+                    <span class="line about"></span>
                 </div>
             </div>
         </div>
-
         <div class="row max">
-            <!-- About Content -->
             <div class="col-sm-4 text-center">
                 <div class="desc">
-                    <div class="icon-me"><i class="fa fa-user"></i></div> <!-- User icon -->
-                    <p>A full stack developer with an eye for design, UX and UI development and a strong desire to learn and create. I have had a long career in the areas of educational software, multimedia production and web development.</p>
+                    <div class="icon-me"><i class="fa fa-user"></i></div>
+                    <p>I am a full stack developer with a keen eye for design, specializing in UX and UI development. I have a strong passion for learning and creating innovative solutions. My career has spanned various domains including educational software, multimedia production, and web development. I thrive on challenges and am always eager to take on new projects that push my boundaries.</p>
                 </div>
             </div>
-
             <div class="col-sm-4 text-center">
                 <div class="desc">
-                    <div class="icon-me"><i class="fa fa-mortar-board"></i></div> <!-- Mortarboard icon -->
-                    <p>I firmly believe in life long learning and I'm constantly exploring new ideas and technologies. MOOC's have enabled me to update my skills and keep abreast of the latest trends in design and coding.</p>
+                    <div class="icon-me"><i class="fa fa-mortar-board"></i></div>
+                    <p>I am a firm believer in lifelong learning and continuously seek out new ideas and technologies to enhance my skills. Online courses and MOOCs have been instrumental in keeping me updated with the latest trends in design and coding. I enjoy participating in webinars, hackathons, and coding challenges to stay sharp and expand my knowledge base.</p>
                 </div>
             </div>
-
             <div class="col-sm-4 text-center">
                 <div class="desc">
-                    <div class="icon-me"><i class="fa fa-rocket"></i></div> <!-- Rocket icon -->
-                    <p>I am a self taught developer and I have a passion for coding. I love to learn new things and I am always looking for ways to improve my skills. I am currently working on a number of projects that will showcase my abilities.</p>
+                    <div class="icon-me"><i class="fa fa-rocket"></i></div>
+                    <p>As a self-taught developer, I have developed a deep passion for coding and problem-solving. I am always on the lookout for ways to improve my skills and stay ahead of the curve. Currently, I am working on several exciting projects that showcase my abilities in full stack development, including building scalable web applications and developing robust backend systems.</p>
                 </div>
             </div>
         </div>
@@ -123,15 +106,13 @@
     <section id="portfolio" class="container-fluid">
         <div class="row section-banner">
             <div class="col-md-offset-3 col-md-6 text-center">
-                <!-- Section Title -->
                 <div>
-                    <span class="line portfolio"></span> <!-- Decorative line -->
-                    <span class="section-title portfolio">portfolio</span> <!-- Section title -->
-                    <span class="line portfolio"></span> <!-- Decorative line -->
+                    <span class="line portfolio"></span>
+                    <span class="section-title portfolio">portfolio</span>
+                    <span class="line portfolio"></span>
                 </div>
             </div>
         </div>
-
         <div class="row max">
             <div class="col-sm-offset-2 col-sm-8 text-center">
                 <div class="desc">
@@ -139,27 +120,32 @@
                 </div>
             </div>
         </div>
-
         <div class="row" id="theProjects">
-            <!-- Project 1 -->
             <div class="col-sm-4 text-center">
                 <div class="project-card">
                     <div class="project-icon">
-                        <i class="fa fa-shield fa-3x"></i> <!-- Shield icon -->
+                        <i class="fa fa-shield fa-3x"></i>
                     </div>
                     <h4>Penetration Testing</h4>
-                    <p>Performed penetration testing on a web application to identify security flaws. Used tools like Burp Suite and OWASP ZAP to uncover vulnerabilities and suggest fixes.</p>
+                    <p>I performed comprehensive penetration testing on a web application to identify and exploit security flaws. Utilizing tools like Burp Suite and OWASP ZAP, I uncovered vulnerabilities such as SQL injection, cross-site scripting (XSS), and broken authentication. I provided detailed reports and recommendations to help the development team enhance the security of their application.</p>
                 </div>
             </div>
-
-            <!-- Project 2 -->
             <div class="col-sm-4 text-center">
                 <div class="project-card">
                     <div class="project-icon">
-                        <i class="fa fa-code fa-3x"></i> <!-- Code icon -->
+                        <i class="fa fa-code fa-3x"></i>
                     </div>
                     <h4>Secure Coding Practices</h4>
-                    <p>Developed a secure login system using Python and Flask, implementing encryption techniques like bcrypt for password hashing and secure session management.</p>
+                    <p>I developed a secure login system using Python and Flask, implementing advanced encryption techniques like bcrypt for password hashing and secure session management. The system includes multi-factor authentication (MFA) and rate limiting to protect against brute force attacks. This project showcases my ability to write secure and reliable code.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa fa-network fa-3x"></i>
+                    </div>
+                    <h4>Network Security</h4>
+                    <p>I designed and implemented a secure network architecture for a small business, including setting up firewalls, VPNs, and intrusion detection systems. I conducted regular security audits and provided training to employees on best practices for maintaining network security. This project highlights my expertise in network security and risk management.</p>
                 </div>
             </div>
         </div>
@@ -169,48 +155,145 @@
     <section id="skills" class="container-fluid">
         <div class="row section-banner">
             <div class="col-md-offset-3 col-md-6 text-center">
-                <!-- Section Title -->
                 <div>
-                    <span class="line skills"></span> <!-- Decorative line -->
-                    <span class="section-title skills">Skills</span> <!-- Section title -->
-                    <span class="line skills"></span> <!-- Decorative line -->
+                    <span class="line skills"></span>
+                    <span class="section-title skills">Skills</span>
+                    <span class="line skills"></span>
                 </div>
             </div>
         </div>
         <div class="row max">
             <div class="col-sm-6 text-center">
                 <div class="desc">
-                    <h4>Technical Skills</h4> <!-- Technical skills heading -->
-                    <p>HTML5, CSS3, JavaScript, Python</p> <!-- List of technical skills -->
+                    <h4>Technical Skills</h4>
+                    <p>HTML5, CSS3, JavaScript, Python, SQL, MongoDB,Network Security, Ethical Hacking</p>
                 </div>
             </div>
             <div class="col-sm-6 text-center">
                 <div class="desc">
-                    <h4>Soft Skills</h4> <!-- Soft skills heading -->
-                    <p>Communication, Teamwork, Problem Solving, Adaptability</p> <!-- List of soft skills -->
+                    <h4>Soft Skills</h4>
+                    <p>Communication, Teamwork, Problem Solving, Adaptability, Leadership, Project Management, Time Management, Critical Thinking</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience Section -->
+    <!-- CERTIFICATIONS Section -->
     <section id="experience" class="container-fluid">
         <div class="row section-banner">
             <div class="col-md-offset-3 col-md-6 text-center">
-                <!-- Section Title -->
                 <div>
-                    <span class="line experience"></span> <!-- Decorative line -->
-                    <span class="section-title experience">Experience</span> <!-- Section title -->
-                    <span class="line experience"></span> <!-- Decorative line -->
+                    <span class="line experience"></span>
+                    <span class="section-title experience">Introduction to computing</span>
+                    <span class="line experience"></span>
                 </div>
             </div>
         </div>
         <div class="row max">
             <div class="col-md-6 text-center">
                 <div class="desc">
-                    <h4>Web Designer</h4> <!-- Job title -->
-                    <p>Tint world car accessories llc ajman</p> <!-- Company name -->
-                    <p>Designed various projects and video editing for the organization</p> <!-- Job description -->
+                    <h4></h4>
+                    <p><strong></strong></p>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="desc">
+                    <h4></h4>
+                    <p><strong></strong></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="container-fluid">
+        <div class="row section-banner">
+            <div class="col-md-offset-3 col-md-6 text-center">
+                <div>
+                    <span class="line hobbies"></span>
+                    <span class="section-title hobbies">Hobbies</span>
+                    <span class="line hobbies"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row max">
+            <div class="col-sm-4 text-center">
+                <div class="desc">
+                    <div class="icon-me"><i class="fa fa-camera"></i></div>
+                    <p><strong>Photography</strong>: I have a deep passion for photography and enjoy capturing moments that tell a story. Whether it's landscapes, street scenes, or portraits, I love exploring new places through my camera lens. I also enjoy editing my photos to bring out the best in each shot, using software like Adobe Lightroom and Photoshop.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center">
+                <div class="desc">
+                    <div class="icon-me"><i class="fa fa-book"></i></div>
+                    <p><strong>Reading</strong>: I am an avid reader and enjoy diving into books on a wide range of topics. My interests include technology, history, science fiction, and non-fiction. I believe that reading is one of the best ways to expand my knowledge and stay informed about the world around me. Some of my favorite authors include Isaac Asimov, Neil Gaiman, and Yuval Noah Harari.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center">
+                <div class="desc">
+                    <div class="icon-me"><i class="fa fa-gamepad"></i></div>
+                    <p><strong>Gaming</strong>: In my free time, I love playing video games, especially strategy and adventure games. I find that gaming is a great way to unwind and challenge my mind. Some of my favorite games include The Legend of Zelda, Civilization, and The Witcher series. I also enjoy watching esports and following the latest developments in the gaming industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container-fluid">
+        <div class="row section-banner">
+            <div class="col-md-offset-3 col-md-6 text-center">
+                <div>
+                    <span class="line gallery"></span>
+                    <span class="section-title gallery">Gallery</span>
+                    <span class="line gallery"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row max">
+            <div class="col-sm-12 text-center">
+                <div class="desc">
+                    <p>Here are some of my favorite photos:</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="gallery-item">
+                    <a href="images/20231111_140447.jpg" target="_blank">
+                        <img src="images/20231111_140447.jpg" alt="Photo 1" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="gallery-item">
+                    <a href="images/20231109_143516.jpg" target="_blank">
+                        <img src="images/20231109_143516.jpg" alt="Photo 2" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="gallery-item">
+                    <a href="images/IMG_0378.jpg" target="_blank">
+                        <img src="images/IMG_0378.jpg" alt="Photo 3" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="gallery-item">
+                    <a href="images/IMG_0061_jpg.jpg" target="_blank">
+                        <img src="images/IMG_0061_jpg.jpg" alt="Photo 4" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="gallery-item">
+                    <a href="images/20231110_142957.jpg" target="_blank">
+                        <img src="images/20231110_142957.jpg" alt="Photo 5" class="img-responsive">
+                    </a>
                 </div>
             </div>
         </div>
@@ -220,32 +303,29 @@
     <section id="contact" class="container-fluid">
         <div class="row section-banner">
             <div class="col-md-offset-3 col-md-6 text-center">
-                <!-- Section Title -->
                 <div>
-                    <span class="line contact"></span> <!-- Decorative line -->
-                    <span class="section-title contact">contact</span> <!-- Section title -->
-                    <span class="line contact"></span> <!-- Decorative line -->
+                    <span class="line contact"></span>
+                    <span class="section-title contact">contact</span>
+                    <span class="line contact"></span>
                 </div>
             </div>
         </div>
-
         <div class="row max">
             <div class="col-md-offset-3 col-md-6">
-                <!-- Contact Form -->
-                <form action="mailto:minhajmuhammed076@gmail" method="post" enctype="text/plain"> <!-- Mailto form -->
+                <form action="mailto:minhajmuhammed076@gmail.com" method="post" enctype="text/plain">
                     <div class="form-group">
-                        <label for="name">Your Name:</label> <!-- Name input label -->
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required> <!-- Name input field -->
+                        <label for="name">Your Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
                     </div>
                     <div class="form-group">
-                        <label for="email">Your Email:</label> <!-- Email input label -->
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required> <!-- Email input field -->
+                        <label for="email">Your Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
                     </div>
                     <div class="form-group">
-                        <label for="message">Your Message:</label> <!-- Message input label -->
-                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea> <!-- Message textarea -->
+                        <label for="message">Your Message:</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send</button> <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary">Send</button>
                 </form>
             </div>
         </div>
@@ -254,32 +334,28 @@
     <!-- Footer Section -->
     <footer id="social-footer">
         <ul>
-            <!-- Social Media Links -->
             <li class="highlight">
                 <a class="fa-stack fa-1x" data-toggle="tooltip" title="Email" data-placement="top" href="mailto:minhajmuhammed076@gmail.com">
-                    <i class="fa fa-square fa-stack-2x"></i> <!-- Square background -->
-                    <i class="fa fa-envelope fa-stack-1x blacktext"></i> <!-- Envelope icon -->
+                    <i class="fa fa-square fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x blacktext"></i>
                 </a>
             </li>
             <li class="highlight">
                 <a class="fa-stack fa-1x" data-toggle="tooltip" title="GitHub" data-placement="top" href="https://github.com/J0K3R-M" target="_blank">
-                    <i class="fa fa-github-square fa-stack-2x"></i> <!-- GitHub icon -->
+                    <i class="fa fa-github-square fa-stack-2x"></i>
                 </a>
             </li>
         </ul>
         <div class="text-center copyright">
-            &copy; 2025 MINHAJ MUHAMMED. All rights reserved. <!-- Copyright notice -->
+            &copy; 2025 MINHAJ MUHAMMED. All rights reserved.
         </div>
     </footer>
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- jQuery library -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> <!-- Bootstrap JavaScript -->
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Custom JS -->
-    <script src="main.js"></script> <!-- Link to custom JavaScript -->
+    <script src="main.js"></script>
 </body>
-
 </html>
