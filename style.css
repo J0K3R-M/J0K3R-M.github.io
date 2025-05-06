@@ -509,3 +509,17 @@ body {
         max-height: 200px; /* Smaller image size for mobile */
     }
 }
+/* Additional styles for certification images */
+.certification-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.certification-image:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
