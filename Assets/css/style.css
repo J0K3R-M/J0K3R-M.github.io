@@ -51,7 +51,7 @@ body {
 #twoam {
     width: 100vw; /* Full viewport width */
     height: 100vh; /* Full viewport height */
-    background-image: url("images/pexels-idan-canfi-779084-4752708.jpg"); /* Background image */
+    background-image: url("../images/pexels-idan-canfi-779084-4752708.jpg"); /* Background image */
     background-position: center center; /* Centers the background */
     background-repeat: no-repeat; /* Prevents background from repeating */
     background-attachment: fixed; /* Fixes the background during scrolling */
@@ -167,7 +167,7 @@ body {
 #contact {
     width: 100vw; /* Full viewport width */
     height: 100vh; /* Full viewport height */
-    background-image: url("images/pexels-simon-steiner-1108932161-28890877.jpg"); /* Background image */
+    background-image: url("../images/pexels-simon-steiner-1108932161-28890877.jpg"); /* Background image */
     background-color: black; /* Black fallback color */
     background-repeat: no-repeat; /* Prevents background from repeating */
     background-position: center center; /* Centers the background */
